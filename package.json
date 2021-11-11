@@ -1,0 +1,30 @@
+{
+  "name": "merkle-tree",
+  "version": "1.0.0",
+  "description": "Merkle Tree lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackbg/merkle-tree.git"
+  },
+  "keywords": [
+    "merkle",
+    "tree",
+    "crypto",
+    "proof"
+  ],
+  "author": "Milen Radkov <milen@hack.bg>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hackbg/merkle-tree/issues"
+  },
+  "homepage": "https://github.com/hackbg/merkle-tree#readme",
+  "dependencies": {
+    "ethers": "^5.5.1",
+    "keccak256": "^1.0.3",
+    "merkletreejs": "^0.2.24"
+  }
+}
