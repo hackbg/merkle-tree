@@ -18,6 +18,7 @@ function hashIt(data, format) {
 }
 
 module.exports = {
-  MerkleTree: MKTree
+  MerkleTree: MKTree,
+  hashIt,
 };
 

@@ -9,6 +9,8 @@ Example usage:
  * @param {Array} format Format specifying the format of the dataset e.g. ["address", "uint256"]
  */
 
+const { MerkleTree, hashIt } = require("merkle-tree");
+
 const format = ["address", "uint256"];
 const dataset = [
   ["0x70997970C51812dc3A010C7d01b50e0d17dc79C8", 2],
@@ -21,4 +23,9 @@ const merkleTree = new MerkleTree(dataset, format);
 
 // Compute root hash:
 console.log("root", merkleTree.getHexRoot());
+
+// Generate proof
+const proof = merkleTree.getHexProof(
+  hashIt(dataset[0][0], dataset[0][1])
+);
 ```
