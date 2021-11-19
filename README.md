@@ -26,6 +26,6 @@ console.log("root", merkleTree.getHexRoot());
 
 // Generate proof
 const proof = merkleTree.getHexProof(
-  hashIt(dataset[0][0], dataset[0][1])
+  hashIt(dataset[0], format)
 );
 ```
