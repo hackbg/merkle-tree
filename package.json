@@ -1,5 +1,5 @@
 {
-  "name": "merkle-tree",
+  "name": "@hackbg/merkle-tree",
   "version": "1.0.0",
   "description": "Merkle Tree lib",
   "main": "index.js",
